@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 900;
+    background-color: #0b0b18;
+}
+.card-form{
+    width: 500px;
+    text-align: center;
+    
+}
+.card-form .cabecalho h1{
+    font-size: 35px;
+}
+.card-form .cabecalho h2{
+    font-size:20px;
+}
+.line{
+    width: 100%;
+    border:1px solid #fff;
+    margin: 20px 0 ;
+    border-radius: 10px;
+}
+label{
+    font-size: 22px;
+}
+main .form-dados label{
+       display: flex;
+       padding-left: 100px;    
+}
+main .form-dados input{
+    width: 300px;
+    position: relative;
+    border-radius: 5px;
+    height: 25px;
+    margin: 5px 0 15px 0;
+}
+.group-dados{
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+.btn-form{
+    cursor: pointer;
+    margin: 20px 0;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #7b7ba0;
+}
+
+
+@media(max-width:500px){
+    .formulario .form-dados label{
+        padding-right: 480px;
+    }
+}

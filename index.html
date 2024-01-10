@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card-form">
+        <header class="cabecalho">
+            <div class="container-cabecalho">
+                <h1 class="titulo-form">Formulario</h1>
+                <h2>Preencha com as Suas Informações</h2>
+            </div>
+        </header>
+        <div class="line"></div>
+        <main >
+            <form action=""  class="formulario">
+                <div class="form-dados">
+                    <label for="inome">Nome</label>
+                    <input type="text" name="name" id="iname">
+                </div>
+                <div class="form-dados">
+                    <label for="iemail">Email</label>
+                    <input type="email" name="email" id="iemail">
+                </div>
+                <h3 class="group-dados">
+                    Você é um desenvolvedor:
+                </h3>
+                <div id="group-dados">
+                    <label for="ifrond-end"><input type="radio" name="check" id="ifrond-end" checked>Front-End</label>
+                    
+                </div>
+                <div id="group-dados">
+                    <label for="iback-end"><input type="radio" name="check" id="iback-end">Back-End</label>
+                </div>
+                <div id="group-dados">
+                    <label for="ifull-Stack"><input type="radio" name="check" id="ifull_stack">Full-Stack</label>
+                </div>
+               <input class="btn-form" type="submit" id="send" value="Enviar">
+            </form>
+            <div id="res">
+                <p id="paragrafo1"></p>
+                <p id="paragrafo2"></p>
+                <p id="paragrafo3"></p>
+            </div>
+        </main>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
